@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/repo-searcher/static/css/main.1fa6bf79.css",
+    "main.js": "/repo-searcher/static/js/main.e1b99b35.js",
+    "index.html": "/repo-searcher/index.html",
+    "main.1fa6bf79.css.map": "/repo-searcher/static/css/main.1fa6bf79.css.map",
+    "main.e1b99b35.js.map": "/repo-searcher/static/js/main.e1b99b35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fa6bf79.css",
+    "static/js/main.e1b99b35.js"
+  ]
+}
