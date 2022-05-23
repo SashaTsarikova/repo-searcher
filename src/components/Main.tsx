@@ -77,7 +77,7 @@ function Main() {
 
   if (personData && reposData) {
     return (
-      <div className="Main">
+      <div className="Main minimize-height">
         <div className="main_content-block">
           <Person personData={personData}></Person>
           <Repos login={login} reposData={reposData}></Repos>
@@ -85,7 +85,7 @@ function Main() {
       </div>
     );
   } else if (personData && !reposData) {
-    <div className="Main">
+    <div className="Main minimize-height">
       <div className="main_content-block">
         <Person personData={personData}></Person>
         <NotFoundRepos></NotFoundRepos>

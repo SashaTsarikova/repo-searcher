@@ -12,3 +12,22 @@
   display: grid;
   grid-template-columns: 30% 70%;
 }
+
+@media (max-width: 1024px) {
+  .Main.minimize-height{
+    height: auto;
+    min-height: auto;
+  }
+}
+
+@media (max-width: 900px) and (orientation: portrait) {
+  .main_content-block{
+    grid-template-columns: 100%;
+  }
+}
+
+@media (max-width: 750px) and (orientation: landscape) {
+  .main_content-block{
+    grid-template-columns: 100%;
+  }
+}

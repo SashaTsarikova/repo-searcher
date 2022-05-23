@@ -21,7 +21,6 @@
     display: flex;
     align-items: center;
     border-radius: 5px;
-    // border: 1px solid black;
     background-color: $white;
     font-size: 1.2rem;
     color: $gray;
@@ -37,6 +36,22 @@
       padding: 2px 1vmin;
       border: none;
       outline: none;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .Header{
+    .header_input-block{
+      width: 70%;
+    }
+  }
+}
+
+@media (max-width: 800px) and (orientation: portrait) {
+  .Header{
+    .header_input-block{
+      width: 80%;
     }
   }
 }

@@ -35,3 +35,9 @@
   height: 100px;
   padding: 2%;
 }
+
+@media (max-width: 900px) and (orientation: portrait) {
+  .EmptyPage.minimize-height{
+    height: auto;
+  }
+}

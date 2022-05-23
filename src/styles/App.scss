@@ -30,3 +30,9 @@ a, button {
 a {
   color: $blue;
 }
+
+@media (orientation: portrait) {
+  .App{
+    width: 90%;
+  }
+}

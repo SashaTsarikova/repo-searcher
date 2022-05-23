@@ -19,7 +19,7 @@ function Repos(props: any) {
 
   if (reposDataArr.length) {
     return (
-      <div className="Repos">
+      <div className="Repos minimize-height">
         <h2 className="repos_big-title">Repositories ({allReposCount})</h2>
         <RepoList
           reposDataArr={reposDataArr.filter(

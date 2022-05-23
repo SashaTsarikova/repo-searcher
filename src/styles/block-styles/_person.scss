@@ -56,3 +56,19 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .Person {
+    .person-container{
+      width: 95%;
+    }
+  }
+}
+
+@media (max-width: 750px) and (orientation: landscape) {
+  .Person {
+    .person-container{
+      width: 60%;
+    }
+  }
+}
