@@ -1,0 +1,14 @@
+@import '../colors';
+
+.Main{
+  height: calc(100vh - max(5vmin, 72px) - 8vmin);
+  min-height: calc(100vh - max(5vmin, 72px) - 8vmin);
+  max-height: auto;
+  padding: 4vmin;
+  background-color: $gray-extra-light;
+}
+
+.main_content-block{
+  display: grid;
+  grid-template-columns: 30% 70%;
+}

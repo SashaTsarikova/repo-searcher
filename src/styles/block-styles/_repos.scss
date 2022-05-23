@@ -1,0 +1,36 @@
+@import '../colors';
+
+.Repos{
+  height: calc(100vh - max(5vmin, 72px) - 8vmin);
+  .repos_big-title{
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.RepoList{
+  display: flex;
+  flex-direction: column;
+}
+
+.RepoItem{
+  background-color: $white;
+  padding: 2.5vmin min(5vmin, 40px);
+  margin: 1.5vmin;
+  border-radius: 5px;
+
+  .RepoItem_title{
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    padding: 1rem 0;
+  }
+
+  .RepoItem_description {
+    line-height: 1.4rem;
+    padding-top: 1rem;
+    font-weight: 500;
+  }
+}

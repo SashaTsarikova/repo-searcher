@@ -1,0 +1,23 @@
+@import '../colors';
+
+.LoadingPage{
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .LoadingPage_arrow{
+    color: $blue;
+    font-size: calc(3rem + 8vmin);
+    animation: loading 1s infinite;;
+  }
+}
+
+@keyframes loading {
+  from {
+    transform: rotate(0deg) scale(1);
+  }
+
+  to {
+    transform: rotate(360deg) scale(1.2);
+  }
+}

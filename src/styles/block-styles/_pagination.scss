@@ -1,0 +1,41 @@
+@import '../colors';
+
+.repos_pagination-container{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.repos_pagination{
+  max-width: 400px;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-self: flex-end;
+  .pagination{
+  list-style-type: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  .page-item{
+    // background-color: white;
+    
+    padding: 0.3rem;
+    .page-link{
+      padding: 0.3rem;
+      color: $gray;
+    }
+    .previousLinkClassName{
+      
+    }
+  }
+  .active{
+    .page-link{
+      background-color: $blue;
+      color: white;
+      border-radius: 0.2rem;
+    }
+  }
+}
+}
+

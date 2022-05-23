@@ -1,0 +1,32 @@
+@import './colors';
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+body {
+  background-color: $gray-light;
+}
+
+.App{
+  width: 80%;
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+a, button {
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+}
+
+a {
+  color: $blue;
+}

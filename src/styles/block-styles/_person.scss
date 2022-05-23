@@ -1,0 +1,58 @@
+@import '../colors';
+
+.Person {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  .person-container{
+    width: 80%;
+    height: inherit;
+  }
+  .person_img-block{
+    width: 90%;
+    height: initial;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 2vmin 0;
+
+    .persons-img{
+      width: 100%;
+      background-color: $blue;
+      border: none;
+    }
+  }
+
+  .person_big-title{
+    font-size: calc(1.3rem + 2vmin);
+    line-height: calc(1.4rem + 2.2vmin);
+    font-weight: 600;
+    padding: .8rem 0;
+  }
+
+  .person_link-title{
+    font-size: calc(0.8rem + 1vmin);
+    line-height: calc(0.8rem + 1.2vmin);
+    padding: .3rem 0;
+  }
+
+  .person_follow-container{
+    display: flex;
+    padding: 2rem 0;
+    .follow-item{
+      font-size: calc(0.8rem + 0.2vmin);
+      display: flex;
+      align-items: center;
+      max-width: 50%;
+      width: 50%;
+      justify-content: flex-start;
+    }
+    .follow-logo{
+      font-size: calc(0.8rem + 1vmin);
+      color: $gray;
+    }
+    .person_small-title{
+      padding: 0 .3rem;
+      font-weight: 500;
+    }
+  }
+}

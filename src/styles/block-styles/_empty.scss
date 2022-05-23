@@ -1,0 +1,37 @@
+@import '../colors';
+
+.EmptyPage{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  .EmptyPage_flex-container{
+    color: $gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .EmptyPage_logo{
+    font-size: calc(3rem + 7vmin);
+    padding: 2vmin 0;
+  }
+  .EmptyPage_title{
+    max-width: 210px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .empty-repos-title{
+    max-width: 250px;
+    padding-top: 3vmin;
+  }
+}
+
+.folder-icon, .user-icon{
+  width: 110px;
+  height: 100px;
+  padding: 2%;
+}
